@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class AccountManger
 {
-    private Scanner sc;
-    private Connection connection;
+    private final Scanner sc;
+    private final Connection connection;
 
     public AccountManger(Scanner sc, Connection connection)
     {
