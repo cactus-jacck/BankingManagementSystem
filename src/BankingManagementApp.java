@@ -57,7 +57,7 @@ public class BankingManagementApp
                             if (choice2 == 1)
                             {
                                 account_number = accounts.openAccount(email);
-                                System.out.println("Account successfully created");
+                                System.out.println("Account successfully created!");
                                 System.out.println("Your account number is " + account_number);
                             }
                             else
